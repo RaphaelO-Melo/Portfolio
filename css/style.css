@@ -30,6 +30,12 @@ body {
     font-weight: 600;
 }
 
+.active-link {
+    color: #ffc16b;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
 /**Customização da foto de perfil**/
 .img-profile {
     width: 300px;
@@ -41,6 +47,10 @@ footer {
     color: #d5c0ae;
 }
 
+/**Customização carousel**/
+.carousel-text {
+    color: black;
+}
 
 
 
