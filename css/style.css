@@ -1,3 +1,7 @@
+body {
+    background-color: #333131;
+}
+
 /******Customização da barra de navegação*******/
 .navbar-custom {
     background-color: #211f1f;
@@ -26,6 +30,20 @@
     font-weight: 600;
 }
 
+/**Customização da foto de perfil**/
+.img-profile {
+    width: 300px;
+}
+
+/**Customaização do rodapé**/
+footer {
+    background-color: #211f1f;
+    color: #d5c0ae;
+}
+
+
+
+
 /*Estilo para dispositivos pequenos*/
 @media (max-width: 575.98px) {
     /*Item da navbar*/
@@ -42,6 +60,10 @@
     .navbar-nav .nav-link {
         font-size: 1em;
     }
+
+    .img-profile {
+        width: 200px;
+    }
 }
 
 /*Estilo para dispositivos médios*/
@@ -52,13 +74,9 @@
         margin-left: 10px;
     }
 
-    .navbar-nav .nav-item-1 {
-        margin-top: 25px;
-    }
-
     /*Links na navbar*/
     .navbar-nav .nav-link {
-        font-size: 1em;
+        font-size: 1.4em;
     }
 }
 
