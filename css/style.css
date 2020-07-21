@@ -1,45 +1,55 @@
+/***************________GLOBAL________***************/
+
 body {
-    background-color: #333131;
-}
-
-/******Customização da barra de navegação*******/
-.navbar-custom {
+    font-family: Liberation, Arial, Helvetica, sans-serif;
     background-color: #211f1f;
-    color: #d5c0ae;
 }
 
+/***************________NAVBAR________***************/
 
-/**Customização dos itens do menu de navegação**/
+/* TOGGLE BUTTON */
 .toggle-icon {
-    font-size: 1.5em;
+    font-size: 1.65em;
     color: #de932a;
 }
 
-/*Item da navbar*/
-.navbar-nav .nav-item {
+/* NAVBAR LINK */
+.navbar-nav .nav-link {
+    color: #de932a;
+    font-size: 1.4em;
+    font-weight: 400;
+    text-transform: uppercase;
     margin: 10px 45px 10px 45px;
 }
 
-/*Links na navbar*/
-.navbar-nav .nav-link {
-    font-size: 1.4em;
-    color: #de932a;
-}
-.navbar-nav .nav-link:hover {
+.navbar-nav .nav-link:hover, .navbar-nav .active-link{
     color: #ffc16b;
-    font-weight: 600;
+    font-weight: 900;
 }
 
-.active-link {
-    color: #ffc16b;
-    font-weight: 600;
-    text-decoration: underline;
-}
+/***************________RESUME________***************/
 
-/**Customização da foto de perfil**/
+/* PROFILE IMAGE */
 .img-profile {
-    width: 300px;
+    border-radius: 50%;
+    border: 4px solid #de932a;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**Customaização do rodapé**/
 footer {
@@ -54,44 +64,65 @@ footer {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Estilo para dispositivos pequenos*/
 @media (max-width: 575.98px) {
-    /*Item da navbar*/
-    .navbar-nav .nav-item {
+    /***************________NAVBAR________***************/
+
+
+    /* NAVBAR LINK */
+    .navbar-nav .nav-link {
+        font-size: 1em;
         margin: 0;
-        margin-left: 10px;
+        margin-left: 60px;
     }
 
+    /* NAVBAR FIRST LINK */
     .navbar-nav .nav-item-1 {
         margin-top: 25px;
     }
-
-    /*Links na navbar*/
-    .navbar-nav .nav-link {
-        font-size: 1em;
-    }
-
-    .img-profile {
-        width: 200px;
-    }
 }
+
 
 /*Estilo para dispositivos médios*/
 @media (min-width: 576px) and (max-width: 767.98px){
-    /*Item da navbar*/
-    .navbar-nav .nav-item {
-        margin: 0;
-        margin-left: 10px;
-    }
-
-    /*Links na navbar*/
+    /***************________NAVBAR________***************/
+    
+    /* NAVBAR LINK */
     .navbar-nav .nav-link {
-        font-size: 1.4em;
+        font-size: 17px;
+        margin: 10px 35px 10px 35px;
     }
 }
-
-
-
 
 
   /*
@@ -106,3 +137,12 @@ footer {
   @media (min-width: 1200px) {
   }
   */
+
+/***************________FONTS________****************/
+@font-face{
+    font-family: Liberation;
+    src: url("../src/fonts/LiberationSans-Regular.woff");
+}
+
+
+/*************________ANIMATIONS________*************/
