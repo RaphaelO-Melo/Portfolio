@@ -6,6 +6,9 @@ body {
 }
 
 /***************________NAVBAR________***************/
+.navbar-custom{
+    background-color: #211f1f;
+}
 
 /* TOGGLE BUTTON */
 .toggle-icon {
