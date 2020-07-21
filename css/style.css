@@ -35,8 +35,18 @@ body {
     border: 4px solid #de932a;
 }
 
+/***************________FOOTER________***************/
 
+/* ICONS */
+.footer-icon {
+    font-size: 2.5em;
+    color: #de932a;
+    margin: 0 50px 0 50px;
+}
 
+.footer-icon:hover {
+    color: #ffc16b;
+}
 
 
 
