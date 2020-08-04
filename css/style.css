@@ -14,6 +14,10 @@ body {
     color: var(--custom-white);
     background-color: var(--custom-gray);
 }
+
+p {
+    font-size: 1.2em;
+}
 /********************************************/
 
 
@@ -76,6 +80,26 @@ nav.navbar-custom{
 
 
 
+/****************** IMAGES ******************/
+
+img.profile-img{
+    border: 5px solid var(--custom-orange);
+    border-radius: 50%;
+    width: 250px;
+}
+
+/********************************************/
+
+
+
+/****************** TEXTS *******************/
+
+span.custom-txt{
+    color: var(--custom-orange);
+    font-family: 'Roboto Light';
+}
+
+/********************************************/
 
 
 

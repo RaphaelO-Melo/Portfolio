@@ -21,6 +21,14 @@
         margin: 0;
         margin-left: 15px;
     }
+
+    img.profile-img{
+        width: 200px;
+    }
+
+    p{
+        font-size: 0.85em;
+    }
 }
 
 /*Small devices (landscape phones)*/
@@ -40,6 +48,10 @@
         font-size: 1.5em;
         margin: 0;
     }
+
+    p{
+        font-size: 1.1em;
+    }
 }
 
 /*Medium devices (tablets, 768px e superior)*/
@@ -51,6 +63,10 @@
         font-size: 1.4em;
         margin: 5px 10px 5px 10px;
     }
+
+    p{
+        font-size: 1.2em;
+    }
 }
 
 /*Large devices (desktops, 992px e superior)*/
@@ -58,6 +74,10 @@
     /*body {
       background: yellow;
     }*/
+    .navbar-nav .nav-link {
+        font-size: 1.6em;
+        margin: 5px 50px 5px 50px;
+    }
 }
 
 /*Extra large devices (large desktops, 1200px e superior)*/
@@ -68,6 +88,10 @@
 
     .navbar-nav .nav-link {
         font-size: 1.6em;
-        margin: 5px 50px 5px 50px;
+        margin: 5px 80px 5px 80px;
+    }
+
+    p{
+        font-size: 1.5em;
     }
 }
