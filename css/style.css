@@ -109,6 +109,15 @@ span.custom-txt{
     font-family: 'Roboto Bold';
 }
 
+h6{
+    color: var(--custom-orange);
+    font-family: 'Roboto Light';
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    padding-left: 2px;
+}
+
 /********************************************/
 
 
@@ -124,9 +133,22 @@ span.custom-txt{
 /********************************************/
 
 
-div.skill-lvl-full {
+
+/**************** SKILLS DIV ****************/
+
+div.skill-lvl-full, div.skill-lvl-empty {
     width: 19%;
     height: 20px;
-    background-color: var(--custom-orange);
-    margin-right: 10px;
+    margin: 0px 3px 1px 3px;
 }
+
+div.skill-lvl-full {
+    background-color: var(--custom-orange);
+}
+
+div.skill-lvl-empty {
+    background-color: var(--custom-gray);
+    border: 2px solid var(--custom-orange);
+}
+
+/********************************************/
