@@ -97,6 +97,11 @@ img.profile-img{
     width: 250px;
 }
 
+img.project-img {
+    border: 5px solid var(--custom-orange);
+    border-radius: 10px;
+}
+
 /********************************************/
 
 
@@ -122,6 +127,21 @@ h6{
     padding-left: 2px;
 }
 
+h6.project-title{
+    font-family: 'Roboto Black';
+    padding: 5px;
+    font-size: 1.6em;
+}
+
+h6.project-institution{
+    font-family: 'Roboto Thin';
+    font-size: 1.2em;
+}
+
+p.project-text{
+    font-size: 1.1em;
+    padding-top: 25px;
+}
 /********************************************/
 
 
