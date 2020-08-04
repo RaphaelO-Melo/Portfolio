@@ -18,6 +18,10 @@ body {
 p {
     font-size: 1.2em;
 }
+
+a:hover {
+    text-decoration: none;
+}
 /********************************************/
 
 
