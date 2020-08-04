@@ -26,7 +26,7 @@
         width: 200px;
     }
 
-    p{
+    p, p.project-text{
         font-size: 0.85em;
     }
 
@@ -46,6 +46,14 @@
 
     h6{
         font-size: 0.9em;
+    }
+
+    h6.project-title{
+        font-size: 1.1em;
+    }
+    
+    h6.project-institution{
+        font-size: 1em;
     }
 }
 
