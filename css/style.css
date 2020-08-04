@@ -27,7 +27,7 @@ div.header-decoration{
     height: 73px;
 }
 
-img.bird-icon, img.header-dino-icon, img.header-egg-icon{
+img.bird-icon, img.header-dino-icon, img.header-egg-icon, img.egg-section{
     position: relative;
 }
 
@@ -54,6 +54,11 @@ img.header-egg-icon{
 img.egg-link{
     width: 35px;
     margin: 10px 3px 10px 65px;
+}
+
+img.egg-section{
+    width: 45px;
+    bottom: 15px;
 }
 /********************************************/
 
@@ -99,6 +104,11 @@ span.custom-txt{
     font-family: 'Roboto Light';
 }
 
+.section-title{
+    color: var(--custom-orange);
+    font-family: 'Roboto Bold';
+}
+
 /********************************************/
 
 
@@ -112,3 +122,11 @@ span.custom-txt{
     border-radius: .50rem;
 }
 /********************************************/
+
+
+div.skill-lvl-full {
+    width: 19%;
+    height: 20px;
+    background-color: var(--custom-orange);
+    margin-right: 10px;
+}

@@ -29,6 +29,15 @@
     p{
         font-size: 0.85em;
     }
+
+    .section-title{
+        font-size: 1.8em;
+    }
+
+    img.egg-section{
+        width: 30px;
+        bottom: 10px;
+    }
 }
 
 /*Small devices (landscape phones)*/
