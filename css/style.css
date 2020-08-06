@@ -176,3 +176,37 @@ div.skill-lvl-empty {
 }
 
 /********************************************/
+
+
+.custom-form{
+    padding: 50px;
+    font-family: 'Roboto Medium';
+    color: var(--custom-gray);
+    background-color: var(--custom-orange);
+}
+
+.custom-input-area {
+    border: none;
+    resize: none;
+    font-family: 'Roboto Light';
+    color: var(--custom-orange);
+    background-color: var(--custom-gray);
+}
+
+.custom-input-area:focus {
+    color: var(--custom-white);
+    background-color: var(--custom-gray);;
+}
+
+.custom-form-btn {
+    font-size: 1.5em;
+
+    color: var(--custom-gray);
+    background-color: var(--custom-orange);
+
+    border-radius: 15px;
+    border: 3px solid var(--custom-gray);
+
+    width: 50%;
+    height: 50px;
+}

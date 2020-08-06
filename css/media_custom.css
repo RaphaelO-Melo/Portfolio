@@ -55,6 +55,11 @@
     h6.project-institution{
         font-size: 1em;
     }
+
+    .custom-form{
+        padding: 14px;
+        font-size: 0.85em;
+    }
 }
 
 /*Small devices (landscape phones)*/
@@ -83,6 +88,10 @@
         width: 18.48%;
         height: 12px;
     }
+
+    .custom-form{
+        padding: 20px;
+    }
 }
 
 /*Medium devices (tablets, 768px e superior)*/
@@ -103,6 +112,10 @@
         width: 18.9%;
         height: 15px;
     }
+
+    .custom-form{
+        padding: 20px;
+    }
 }
 
 /*Large devices (desktops, 992px e superior)*/
@@ -113,6 +126,10 @@
     .navbar-nav .nav-link {
         font-size: 1.6em;
         margin: 5px 50px 5px 50px;
+    }
+
+    .custom-form{
+        padding: 40px;
     }
 }
 
