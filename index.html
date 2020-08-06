@@ -16,6 +16,13 @@
         <link rel="stylesheet" href="./css/media_custom.css">
 
         <title>Raphael Melo - Portfolio</title>
+
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+            <script type="text/javascript">
+            (function(){
+                emailjs.init("user_9GLWJP8Qmj8ZNcgeBHgwz");
+            })();
+        </script>
     </head>
 
 
@@ -48,19 +55,19 @@
                   <div class="collapse navbar-collapse" id="nav-target">
                     <ul class="navbar-nav ml-auto mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="#about-section">
                                 <img class="egg-link d-md-none d-lg-none d-xl-none" src="./assets/images/icons/egg.png" alt="Egg Icon">
                                 Sobre
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="#projects-section">
                                 <img class="egg-link d-md-none d-lg-none d-xl-none" src="./assets/images/icons/egg.png" alt="Egg Icon">
                                 Projetos
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="#contact-section">
                                 <img class="egg-link d-md-none d-lg-none d-xl-none" src="./assets/images/icons/egg.png" alt="Egg Icon">
                                 Contato
                             </a>
@@ -83,7 +90,7 @@
                 <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-6 ml-auto mr-auto mt-5 text-center">
                     <p>
                         Olá, eu me chamo <span class="custom-txt">Raphael Melo</span>, sou um
-                        desenvolvedor <span class="custom-txt">full-stack júnior</span> e desenvolvi
+                        desenvolvedor <span class="custom-txt">Full-stack júnior</span> e desenvolvi
                         esse site para contar um pouco sobre mim.
                     </p>
                     <p>
@@ -102,7 +109,7 @@
                     <img class="egg-section" src="./assets/images/icons/egg.png" alt="Egg Icon"><h1 class="section-title d-inline">Sobre</h1>
                     <br><br>
                     <p>
-                        Sou graduado em programação de <span class="custom-txt">Jogos Digitais</span>,
+                        Sou graduado em programação de <a href="https://www.sp.senac.br/graduacao/curso/tecnologia/jogos-digitais" target="_blank"><span class="custom-txt">Jogos Digitais</span></a>,
                         porém durante a graduação, tive um breve contato com <span class="custom-txt">Desenvolvimento Web</span>,
                         inclusive com profissionais que trabalhavam na área. Após a graduação, decidi me focar em estudar sobre
                         as tecnologias mais usadas com o objetivo de ingressar profissionalmente na área. Abaixo, algumas tecnologias
@@ -177,7 +184,7 @@
                         Durante a graduação e os cursos, foi possível desenvolver alguns projetos
                         para exercitar e demonstrar os conhecimentos nas tecnologias que estavam sendo estudadas. Nessa seção
                         irei expor alguns exemplos desses projetos, porém caso deseje consultar outros projetos,
-                        fique a vontade para entrar no meu <a href="#"><span class="custom-txt">GitHub</span></a>
+                        fique a vontade para entrar no meu <a href="https://github.com/RaphaelO-Melo" target="_blank"><span class="custom-txt">GitHub</span></a>
                     </p>
                 </div>
 
@@ -187,11 +194,13 @@
                 <div class="container mt-5 pt-5">
                     <div class="row">
                         <div class="col-12 col-lg-6 order-2 order-lg-1 order-xl-1 p-3">
-                            <img class="project-img img-fluid" src="./assets/images/noticias-cidade.PNG" alt="Print Notícias Cidade">
+                            <a href="https://raphaelo-melo.github.io/Site_Noticias-Cidade/" target="_blank">
+                                <img class="project-img img-fluid" src="./assets/images/noticias-cidade.PNG" alt="Print Notícias Cidade">
+                            </a>
                         </div>
 
                         <div class="col-12 col-lg-6 order-1 order-lg-2 order-xl-2 p-3 pt-4 text-center">
-                            <h6 class="project-title">Notícias Cidade</h6>
+                            <a href="https://raphaelo-melo.github.io/Site_Noticias-Cidade/" target="_blank"><h6 class="project-title">Notícias Cidade</h6></a>
                             <h6 class="project-institution">Udemy</h6>
                             <p class="project-text">
                                 Este projeto foi desenvolvido usando apenas <span class="custom-txt">HTML</span> e <span class="custom-txt">CSS</span> puro. O objetivo foi exercitar conhecimentos básicos das
@@ -207,7 +216,7 @@
                 <div class="container mt-5 pt-5">
                     <div class="row">
                         <div class="col-12 col-lg-6 p-3 pt-4 text-center">
-                            <h6 class="project-title">Finans</h6>
+                            <a href="https://raphaelo-melo.github.io/Site_Finans/" target="_blank"><h6 class="project-title">Finans</h6></a>
                             <h6 class="project-institution">Udemy</h6>
                             <p class="project-text">
                                 Este projeto foi o meu primeiro desenvolvido usando <span class="custom-txt">Bootstrap 4</span>. O objetivo foi estudar o uso do framework e, para isso,
@@ -217,36 +226,25 @@
                         </div>
 
                         <div class="col-12 col-lg-6 p-3">
-                            <img class="project-img img-fluid" src="./assets/images/finans.PNG" alt="Print Finans">
+                            <a href="https://raphaelo-melo.github.io/Site_Finans/" target="_blank">
+                                <img class="project-img img-fluid" src="./assets/images/finans.PNG" alt="Print Finans">
+                            </a>
                         </div>
                     </div>
                 </div>
                 <!-- ↑ Project 02 End ↑ -->
-
+                
                 <!-- ↓ Project 03 Start ↓ -->
                 <div class="container mt-5 pt-5">
                     <div class="row">
-                        <div class="col-12 col-lg-6 order-2 order-lg-1 order-xl-1 p-3">
-                            <img class="project-img img-fluid" src="./assets/images/mata-mosquito.PNG" alt="Print Mata Mosquito">
+                        <div class="col-12 col-lg-6 p-3 order-2 order-lg-1 order-xl-1">
+                            <a href="https://raphaelo-melo.github.io/APP_Calculadora/" target="_blank">
+                                <img class="project-img img-fluid" src="./assets/images/calculadora.PNG" alt="Print Calculadora">
+                            </a>
                         </div>
 
-                        <div class="col-12 col-lg-6 order-1 order-lg-2 order-xl-2 p-3 pt-4 text-center">
-                            <h6 class="project-title">Jogo Mata Mosquito</h6>
-                            <h6 class="project-institution">Udemy</h6>
-                            <p class="project-text">
-                                Um jogo desenvolvido usando conhecimentos básicos de <span class="custom-txt">JavaScript</span>. Nele o jogador tem que matar mosquitos com o clique do mouse
-                                antes que eles sumam e ele perca uma vida, o jogo possui 3 dificuldades e foi desenvolvido com o propósito de exercitar a codificação com a linguagem.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <!-- ↑ Project 03 End ↑ -->
-                
-                <!-- ↓ Project 04 Start ↓ -->
-                <div class="container mt-5 pt-5">
-                    <div class="row">
-                        <div class="col-12 col-lg-6 p-3 pt-4 text-center">
-                            <h6 class="project-title">Calculadora</h6>
+                        <div class="col-12 col-lg-6 p-3 pt-4 order-1 order-lg-2 order-xl-2 text-center">
+                            <a href="https://raphaelo-melo.github.io/APP_Calculadora/" target="_blank"><h6 class="project-title">Calculadora</h6></a>
                             <h6 class="project-institution">Udemy</h6>
                             <p class="project-text">
                                 Esta aplicação foi desenvolvida com conhecimentos intermediários de <span class="custom-txt">JavaScript</span>. O objetivo foi exercitar lógica de programação e, para isso,
@@ -255,22 +253,44 @@
                             </p>
                         </div>
 
+                    </div>
+                </div>
+                <!-- ↑ Project 03 End ↑ -->
+
+                <!-- ↓ Project 04 Start ↓ -->
+                <div class="container mt-5 pt-5">
+                    <div class="row">
+                        
+                        <div class="col-12 col-lg-6 p-3 pt-4 text-center">
+                            <a href="https://raphaelo-melo.github.io/APP_Game-mata-mosquito/" target="_blank"><h6 class="project-title">Jogo Mata Mosquito</h6></a>
+                            <h6 class="project-institution">Udemy</h6>
+                            <p class="project-text">
+                                Um jogo desenvolvido usando conhecimentos básicos de <span class="custom-txt">JavaScript</span>. Nele o jogador tem que matar mosquitos com o clique do mouse
+                                antes que eles sumam e ele perca uma vida, o jogo possui 3 dificuldades e foi desenvolvido com o propósito de exercitar a codificação com a linguagem.
+                            </p>
+                        </div>
+
                         <div class="col-12 col-lg-6 p-3">
-                            <img class="project-img img-fluid" src="./assets/images/calculadora.PNG" alt="Print Calculadora">
+                            <a href="https://raphaelo-melo.github.io/APP_Game-mata-mosquito/" target="_blank">
+                                <img class="project-img img-fluid" src="./assets/images/mata-mosquito.PNG" alt="Print Mata Mosquito">
+                            </a>
                         </div>
                     </div>
                 </div>
                 <!-- ↑ Project 04 End ↑ -->
+                
 
                 <!-- ↓ Project 05 Start ↓ -->
                 <div class="container mt-5 pt-5">
                     <div class="row">
                         <div class="col-12 col-lg-6 order-2 order-lg-1 order-xl-1 p-3">
-                            <img class="project-img img-fluid" src="./assets/images/despesas-pessoais.PNG" alt="Print Despesas pessoais">
+                            <a href="https://raphaelo-melo.github.io/APP_Orcamento-pessoal/" target="_blank">
+                                <img class="project-img img-fluid" src="./assets/images/despesas-pessoais.PNG" alt="Print Despesas pessoais">
+                            </a>
                         </div>
 
                         <div class="col-12 col-lg-6 order-1 order-lg-2 order-xl-2 p-3 pt-4 text-center">
-                            <h6 class="project-title">Despesas pessoais</h6>
+                            <a href="https://raphaelo-melo.github.io/APP_Orcamento-pessoal/" target="_blank"><h6 class="project-title">Despesas pessoais</h6></a>
                             <h6 class="project-institution">Udemy</h6>
                             <p class="project-text">
                                 Uma aplicação desenvolvida usando conhecimentos intermediários de <span class="custom-txt">JavaScript</span>, nela o usuário pode cadastrar e consultar suas despesas pessoais. 
@@ -286,7 +306,7 @@
                 <div class="container mt-5 pt-5">
                     <div class="row">
                         <div class="col-12 col-lg-6 p-3 pt-4 text-center">
-                            <h6 class="project-title">Into the Dwarfness</h6>
+                            <a href="https://github.com/Waffliors/Into-The-Dwarfness" target="_blank"><h6 class="project-title">Into the Dwarfness</h6></a>
                             <h6 class="project-institution">Centro Universitário SENAC</h6>
                             <p class="project-text">
                                 Um jogo desenvolvido em <span class="custom-txt">Java</span> durante a graduação em jogos digitais. Nele o jogador controla um anão que tenta provar seu valor
@@ -296,7 +316,9 @@
                         </div>
 
                         <div class="col-12 col-lg-6 p-3">
-                            <img class="project-img img-fluid" src="./assets/images/into-the-dwarfnes.PNG" alt="Print Into the Dwarfness">
+                            <a href="https://github.com/Waffliors/Into-The-Dwarfness" target="_blank">
+                                <img class="project-img img-fluid" src="./assets/images/into-the-dwarfnes.PNG" alt="Print Into the Dwarfness">
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -306,11 +328,13 @@
                 <div class="container mt-5 pt-5">
                     <div class="row">
                         <div class="col-12 col-lg-6 order-2 order-lg-1 order-xl-1 p-3">
-                            <img class="project-img img-fluid" src="./assets/images/quests-of-wisllow.PNG" alt="Print Quests of Wisllow">
+                            <a href="https://play.google.com/store/apps/details?id=com.Bugnatron.QuestsofWisllow" target="_blank">
+                                <img class="project-img img-fluid" src="./assets/images/quests-of-wisllow.PNG" alt="Print Quests of Wisllow">
+                            </a>
                         </div>
 
                         <div class="col-12 col-lg-6 order-1 order-lg-2 order-xl-2 p-3 pt-4 text-center">
-                            <h6 class="project-title">Quests of Wisllow</h6>
+                            <a href="https://play.google.com/store/apps/details?id=com.Bugnatron.QuestsofWisllow" target="_blank"><h6 class="project-title">Quests of Wisllow</h6></a>
                             <h6 class="project-institution">Centro Universitário SENAC</h6>
                             <p class="project-text">
                                 Projeto de conclusão de curso da graduação em <span class="custom-txt">Jogos Digitais</span>. O jogo foi desenvolvido usando <span class="custom-txt">C#</span> na <span class="custom-txt">Unity</span>
@@ -350,7 +374,7 @@
                     <br><br>
                     <p>
                         Gostou do meu trabalho? Tem interesse em entrar em contato para conversar sobre oportunidades ou fazer críticas e me dar dicas 
-                        de como evoluir? Fique a vontade para me mandar um email, ou entrar em contato comigo através do <span class="custom-txt">GitHub</span>  ou do <span class="custom-txt">Linkedin</span>! :)
+                        de como evoluir? Fique a vontade para me mandar um email, ou entrar em contato comigo através do <a href="https://github.com/RaphaelO-Melo" target="_blank"><span class="custom-txt">GitHub</span></a>  ou do <a href="https://www.linkedin.com/in/raphael-oliveira-melo-ba372b104/" target="_blank"><span class="custom-txt">Linkedin</span></a>! :)
                     </p>
 
                     <form class="text-justify custom-form">
@@ -370,7 +394,7 @@
                         </div>
 
                         <div class="text-center">
-                            <button type="submit" class="custom-form-btn ml-auto mr-auto">Enviar</button>
+                            <button class="custom-form-btn ml-auto mr-auto" onclick="sendMail()">Enviar</button>
                         </div>
                       </form>
                 </div>
@@ -379,8 +403,8 @@
 
 
         <footer class="p-4 text-center">
-            <a href=""><i class="fab fa-linkedin"></i></a>
-            <a href=""><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/raphael-oliveira-melo-ba372b104/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/RaphaelO-Melo" target="_blank"><i class="fab fa-github"></i></a>
 
             <p>
                 Raphael Oliveira Melo &copy;
