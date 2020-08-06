@@ -210,3 +210,24 @@ div.skill-lvl-empty {
     width: 50%;
     height: 50px;
 }
+
+
+
+
+footer{
+    background-color: var(--custom-orange);
+}
+
+footer i {
+    color: var(--custom-gray);
+    font-size: 3.5em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer p {
+    margin-top: 25px;
+    color: var(--custom-gray);
+    font-size: 1.5em;
+    font-family: 'Roboto Light';
+}

@@ -60,6 +60,21 @@
         padding: 14px;
         font-size: 0.85em;
     }
+
+    .custom-form-btn {
+        font-size: 1em;
+    
+        width: 50%;
+        height: 30px;
+    }
+    
+    footer i {
+        font-size: 3em;
+    }
+    
+    footer p {
+        font-size: 1.2em;
+    }
 }
 
 /*Small devices (landscape phones)*/
