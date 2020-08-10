@@ -14,6 +14,7 @@
         color: var(--custom-orange);
         font-size: 0.9em;
         margin: 0;
+        text-align: left;
     }
 
     img.egg-link{
@@ -93,6 +94,8 @@
         color: var(--custom-orange);
         font-size: 1.5em;
         margin: 0;
+        text-align: left;
+        width: auto;
     }
 
     p{

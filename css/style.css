@@ -10,6 +10,7 @@
 /*************** GLOBAL STYLE ***************/
 html {
     scroll-behavior: smooth;
+    min-width: 360px;
 }
 
 body {
