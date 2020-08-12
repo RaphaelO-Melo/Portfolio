@@ -35,6 +35,10 @@ function sendEmail(){
         });
 
         clearInputs();
+        showModal(true);
+    } else {
+        console.log('Problemas para enviar email, informar o usuário');
+        showModal(false);
     }
 }
 
@@ -50,6 +54,7 @@ function verifyForm(){
             }
         }
     }
+
     return false
 }
 

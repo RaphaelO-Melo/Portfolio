@@ -58,6 +58,7 @@ img.header-dino-icon {
     right: 30px;
 }
 
+
 img.header-egg-icon{
     width: 45px;
     top: 28px;
@@ -91,10 +92,13 @@ nav.navbar-custom{
     color: var(--custom-gray);
     text-transform: uppercase;
     margin: 5px 20px 5px 20px;
+
+    transition: all 0.5s;
 }
 
 .navbar-nav .nav-link:hover {
     font-family: 'Roboto Black';
+    letter-spacing: 0.7px;
 }
 
 
@@ -279,4 +283,10 @@ footer p {
   /* Handle */
   ::-webkit-scrollbar-thumb {
     background: var(--custom-orange);
+  }
+
+
+  .modal-content{
+      background-color: var(--custom-gray);
+      border: 8px solid var(--custom-orange);
   }
