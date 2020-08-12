@@ -164,7 +164,7 @@ function createProjects(){
                         </p>
                     </div>
         
-                    <div class="col-12 col-lg-6 p-3">
+                    <div class="col-12 col-lg-6 order-2 order-lg-1 order-xl-1 p-3 text-center img-project-div">
                         <a href="${PROJECTS[cont].link}" target="_blank">
                             <img class="project-img img-fluid" src="${PROJECTS[cont].image_link}" alt="${PROJECTS[cont].alt}">
                         </a>

@@ -114,8 +114,13 @@ img.profile-img{
 img.project-img {
     border: 5px solid var(--custom-orange);
     border-radius: 10px;
+    transition: all 1s;
 }
 
+img.project-img:hover {
+    opacity: 30%;
+    filter: grayscale(100%);
+}
 /********************************************/
 
 
@@ -188,6 +193,8 @@ div.skill-lvl-empty {
     background-color: var(--custom-gray);
     border: 2px solid var(--custom-orange);
 }
+
+
 
 /********************************************/
 
@@ -269,7 +276,6 @@ footer p {
 
 
 
-
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
@@ -290,3 +296,6 @@ footer p {
       background-color: var(--custom-gray);
       border: 8px solid var(--custom-orange);
   }
+
+
+
