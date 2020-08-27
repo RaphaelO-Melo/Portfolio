@@ -116,11 +116,6 @@ img.project-img {
     border-radius: 10px;
     transition: all 1s;
 }
-
-img.project-img:hover {
-    opacity: 30%;
-    filter: grayscale(100%);
-}
 /********************************************/
 
 
