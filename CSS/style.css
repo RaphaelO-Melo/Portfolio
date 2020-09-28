@@ -1,0 +1,41 @@
+/*** Base Reset ***/
+html{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*** General customization classes ****/
+.flip-left{
+    -webkit-transform: scaleX(-1);
+        -ms-transform: scaleX(-1);
+            transform: scaleX(-1);
+}
+
+/*** Specific customization classes ***/
+
+/* Header decoration icons */
+div.decoration-area img.bird,
+div.decoration-area img.dino,
+div.decoration-area img.egg{
+    position: relative;
+}
+
+div.decoration-area img.bird{
+    top: 38px;
+    left: 30px;
+    z-index: 1;
+}
+
+div.decoration-area img.dino{
+    top: 31px;
+    right: 30px;
+}
+
+div.decoration-area img.egg{
+    top: 52px;
+    right: 15px;
+    -webkit-transform: rotate(35deg);
+        -ms-transform: rotate(35deg);
+            transform: rotate(35deg);
+}
