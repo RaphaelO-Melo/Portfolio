@@ -1,10 +1,24 @@
-/*** Base Reset ***/
+/*** Global Variables ***/
+:root {
+    --custom-gray: #454545;
+    --custom-white: #fffbf5;
+    --custom-orange: #F8B756;
+}
+
+
+/*** Base Customization ***/
 html{
     margin: 0;
     padding: 0;
 }
 
+body{
+    font-family: 'Roboto';
+}
 
+button:focus {
+    outline: none;
+}
 /*** General customization classes ****/
 .flip-left{
     -webkit-transform: scaleX(-1);
@@ -22,7 +36,7 @@ div.decoration-area img.egg{
 }
 
 div.decoration-area img.bird{
-    top: 38px;
+    top: 39px;
     left: 30px;
     z-index: 1;
 }
@@ -38,4 +52,25 @@ div.decoration-area img.egg{
     -webkit-transform: rotate(35deg);
         -ms-transform: rotate(35deg);
             transform: rotate(35deg);
+}
+
+/* Navbar customization */
+nav.navbar-orange{
+    background-color: var(--custom-orange);
+}
+
+div.custom-navbar ul li a{
+    font-size: 1.6em;
+    text-transform: uppercase;
+    margin: 15px 55px 15px 55px;
+}
+
+a.nav-link{
+    color: var(--custom-gray);
+}
+
+img.egg-link{
+    position: relative; 
+    top: 40px;
+    left: 15px;
 }
